@@ -1,0 +1,212 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+  background-color:	cornsilk;
+}
+
+p {
+  font-size: 1.2em;
+}
+div#actions {
+  border: solid black 3px;
+  background-color: lightblue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 12%;
+}
+
+ul#commands {
+  list-style: none;
+  margin-top: 0;
+}
+
+div#targets {
+  border: solid black 3px;
+  background-color: lightblue;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 12%;
+}
+div#menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -0.2%;
+}
+
+ul#subcommands {
+  margin-top: 0;
+  list-style: none;
+}
+
+ul#subcommands:nth-child(3), ul#subcommands:nth-child(4) {
+  display: inline-block;
+}
+
+table {
+  font-size: 2rem;
+  background-color: lightblue;
+  border: solid black 3px;
+}
+
+img#background-img {
+  width: 60%;
+  margin-left: 20%
+}
+
+img#black-mage-battle-img {
+  position: relative;
+  width: 5%;
+  right: 20vw;
+  top: -10vh;
+}
+
+img#white-mage-battle-img {
+  position: relative;
+  width: 5%;
+  right: 29vw;
+  top: -5vh;
+}
+
+img#dragoon-battle-img {
+  position: relative;
+  width: 5%;
+  right: 30vw;
+}
+img#enemy1-img {
+  position: relative;
+  width: 3%;
+  right: 53vw;
+  top: -10vh;
+}
+
+img#enemy2-img {
+  position: relative;
+  width: 3%;
+  right: -44vw;
+  top: -14vh;
+}
+
+img#enemy3-img {
+  position: relative;
+  width: 3%;
+  right: -38vw;
+  top: -9vh;
+}
+
+ol#instructions {
+  position: absolute;
+}
+
+div#blm-left {
+  display: inline-block;
+  width: 30%;
+  background-color: lavender;
+}
+
+div#whm-mid {
+  display: inline-block;
+  width: 30%;
+
+}
+div#whm-mid > h2 {
+  position: relative;
+  top: 3vh;
+}
+
+div#drg-right {
+  display: inline-block;
+  width: 30%;
+  background-color: lavender;
+}
+img#blmclass {
+  width: 60%;
+}
+
+img#whmclass {
+  width: 48%;
+}
+
+img#drgclass {
+  width: 115%;
+}
+
+p#blmdes {
+  width: 70%;
+  margin-left: 5%;
+}
+
+p#whmdes {
+  width: 70%;
+  margin-left: 4%;
+}
+
+p#drgdes {
+  width: 70%;
+  margin-left: 15%;
+}
+
+button.choose-class {
+  margin-left: 45%;
+}
+
+button#blackMage {
+  margin-left: 25%;
+}
+
+button#whiteMage {
+  margin-left: 25%;
+}
+
+#to-aquired {
+  display: block;
+  margin-left: 44%;
+  padding-top: 2%;
+}
+
+span#thunder {
+  color: orange;
+  display: inline;
+  position: relative;
+  animation: .1s shake infinite alternate;
+}
+span#holy {
+  color: darkkhaki;
+  display: inline;
+  position: relative;
+  animation: .1s shake infinite alternate;
+}
+span#firaga {
+  color: orangered;
+  display: inline;
+  position: relative;
+  animation: .1s shake infinite alternate;
+}
+span#boom {
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  animation: .1s shake infinite alternate;
+}
+
+
+@keyframes shake {
+  from{
+    right: 0px
+  }
+  to {
+    right: 4px;
+  }
+  
+}
+
+
+
+
+
+
